@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portfolio de Fotografías</title>
+    <title>Galería de Paisajes</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             color: #333;
+            padding: 20px;
             text-align: center;
-            padding-top: 50px;
         }
         nav {
             background-color: #333;
@@ -28,11 +28,20 @@
         h1 {
             margin-bottom: 20px;
         }
-        .gallery-links {
+        .gallery {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             gap: 20px;
+        }
+        .gallery img {
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            border-color: #333;
         }
     </style>
 </head>
@@ -44,11 +53,10 @@
         <a href="viajes.html">Viajes</a>
     </nav>
 
-    <h1>Mi Portfolio de Fotografías</h1>
-    <div class="gallery-links">
-        <a href="naturaleza.html">Naturaleza</a>
-        <a href="paisajes.html">Paisajes</a>
-        <a href="viajes.html">Viajes</a>
+    <h1>Galería de Paisajes</h1>
+    <div class="gallery">
+        <img src="paisajes/DSC03990.jpg" alt="Paisaje 1">
+        <img src="paisajes/DSC03990_1.jpg" alt="Paisaje 2">
     </div>
 </body>
 </html>
