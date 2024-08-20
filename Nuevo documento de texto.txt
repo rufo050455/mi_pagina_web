@@ -1,0 +1,23 @@
+
+git add .
+git commit -m "Actualización del portfolio con las imágenes"
+git push origin main
+************************************
+
+https://rufo050455.github.io/mi_pagina_web/
+**************************************************
+https://github.com/rufo050455/mi_pagina_web/settings/pages
+
+************************************************************
+rufo050455
+git clone https://github.com/rufo050455/mi-pagina-web.git
+cd mi-pagina-web
+git clone https://github.com/Rufiantalcual/mi-pagina-web.git
+cd mi-pagina-web
+git config --global user.name "Rufiantalcual"
+git config --global user.email "antonio.rufian3@gmail.com"
+
+git config user.name "Rufiantalcual"
+
+git config user.email "antonio.rufian3@gmail.com"
+
